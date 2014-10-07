@@ -1,0 +1,172 @@
+/*----Utilidades---
+ el tamaño de em cambia a 24 px debido que el h2 tiene heredado un
+ tamaño de 1.5em, por lo tanto (16*15)= 24(nuevo valor de em)*/
+.u-title{
+	color: #00DBFF;
+	text-align: center;
+	border-bottom: 0.125em dashed #00DBFF;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+}
+/*----Este es el Menú-----*/
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.MainMenu-list{
+	padding: 0;
+	margin: 0;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-link:hover{
+	color: white;
+}
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em
+}
+/* Header y sus componentes */
+.Header{
+	margin-top: 3.5em;
+	margin-bottom: 0.5em;
+	background-image: url('../images/fondo3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 15em;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+.Header-imageContainer{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.Header-image{
+	border: 5px solid white;
+	height: 8.5em;
+	margin-top: 1em;
+	border-radius: 15%%;
+}
+.Header-name{
+	color: #00DBFF;
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+.Header-link{
+	color: #00DBFF;
+	font-weight: bold;
+	font-weight: bold;
+	font-size: 2.2em;
+	text-decoration: none;
+}
+
+/*-----Peril Personal-----*/
+.Profile{
+	text-align: center;
+}
+.Profile-title{
+	margin: 0;
+
+}
+.Profile-description{
+
+}
+.Profile-linkContainer{
+
+}
+.Profile-link{
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	border-radius: 2em;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	line-height: 2.5em;
+}
+.Profile-title{
+	
+}
+/* ---Apartado de trabajo----*/
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Work-imageContainer{
+	margin: 0;
+}
+.Work-image{
+	height: 20em;
+	border-radius: 1em;
+}
+.Work-imageDescription{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+.Footer{
+	background-image: url(../images/fondofooter.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em;
+	text-align: center;
+}
+/* Para centrar elementos que no son texto es necesario que el padre
+de esos elementos tenga text-align: center;*/
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+.Footer-title{
+	color: white;
+	font-weight: normal;
+	margin-top: 0;
+}
+/*Para centrar elementos con display block es necesario dar un margin: 0 auto; */
+.Footer-formInput,
+.Footer-textArea{
+	background: white;
+	border: none;
+	border-radius: 2em;
+	display: block;
+	padding: 0.5em 1em;
+	margin: 0 auto 1em;
+	width: 13em;
+}
+.Footer-button{
+	background: orange;
+	color: white;
+	border-radius: 1em;
+	border: none;
+	padding: 0.5em;
+}
+.Footer-left{
+	display: inline-block;
+	
+	text-align: center;
+	vertical-align: top;
+}
+.Footer-center{
+	text-align: justify;
+	max-width: 32em;
+	min-width: 13em;
+	margin-right: 1em;
+}

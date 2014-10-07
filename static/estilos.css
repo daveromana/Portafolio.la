@@ -1,0 +1,78 @@
+.u-title{
+	color: red;
+	text-decoration: underline;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	color: black;
+}
+a:hover{
+	color: white
+}
+/* estas son pseudoclases, la sintaxis es poner : justo despues del selector de clase;
+la pseudoclase hover sirve para cambiar las propiedades al pasar el mouse
+
+nth-child(odd){
+	background:blue;
+}
+esto sirve para cambiar propiedades de hijos o filas impares 
+(para el caso de tablas en las que se cambian de color)
+*/
+
+.Header {
+	background: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.MainMenu{
+	position: fixed;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: green;
+	top: 0;
+	right: 0;
+}
+.Profile{
+	vertical-align: top;
+	background: lightgray;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.Profile-span{
+	font-weight: bold;
+}
+
+.Profile-strong{
+	font-weight: normal;
+}
+.Work-item {
+	display: inline-block;
+	
+}
+
+.Footer {
+
+}
+
+/*para llamar ids es con un # al inicio, para una clase, con un punto antes del nombre.
+
+reglas de suitecss
+
+1.- La clases son componentes.
+.MyComponent {}
+.MyComponent.is-animating {}
+.MyComponent--modifier {}
+
+.MyComponent-part {}
+.MyComponent-anotherPart {}
+
+static
+relative
+absolute
+fixed
+*/
